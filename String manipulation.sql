@@ -1,6 +1,7 @@
 SELECT 
     user_id,
     CONCAT(UPPER(first_name), ' ', LOWER(last_name)) AS formatted_name,
+    CONCAT(first_name, ' ', last_name) AS full_name,
     REPLACE(email, '@example.com', '@newdomain.com') AS updated_email,
     REVERSE(first_name) AS reversed_first_name,
     TRIM(first_name) AS trimmed_first_name,
