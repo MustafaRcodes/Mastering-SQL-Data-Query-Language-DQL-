@@ -7,4 +7,11 @@
 6)	HAVING (filter aggerated output)
 7)	ORDER BY (sort the result either by ASC or DESC)  
 8)	LIMIT (set limit on number of rows returned)
+SHOW DATABASES;
+USE retaildata;
+SHOW TABLES;
+SHOW COLUMNS FROM brandscsvimport;
+SHOW INDEXES FROM brandscsvimport;
+SHOW STATUS;
+SHOW VARIABLES;
 */
